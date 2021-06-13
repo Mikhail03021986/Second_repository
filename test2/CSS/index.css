@@ -1,0 +1,114 @@
+        body {
+            font-family: Times New Roman;
+            font-size: 14px;
+            width: auto; 
+            margin: 0 auto;
+            max-width: 1235px;
+
+         }  
+
+        .header {
+            padding-left: 10%;
+            padding-right: 10%;
+            width: 990px; 
+            height: 33%;
+            background: #fff; 
+            border-bottom: solid 3px #CCCC99; 
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .header .head1 {
+                    width: 500px;
+                    height: 100%;
+                    float: none;
+                }
+
+        .header .head2 {
+                    width: 100px;
+                    height: 100%;
+                    float: none;
+                    margin-top: 10px;
+                }
+
+        .center {
+            width: 990px; 
+            height: 49%;
+            padding-right: 10%;
+            padding-left: 10%;
+            margin: 0 auto;
+            float: none;
+            background: #e8eaf6; 
+       }
+
+        .footer {
+            display: flex;
+            justify-content: flex-start;
+            width: 990px; 
+            height: 18%; 
+            padding-left: 10%;
+            padding-right: 10%;
+            background: #fff; 
+            margin: 0 auto;
+            padding-top: 20px; 
+        }
+        .footer .foot1 {
+                    width: 160px; 
+                    height: 50%;
+                    float: right;
+                }
+
+        .footer .foot2 {
+                    width: 500px; 
+                    height: 50%;
+                    float: right;
+                }
+
+        #form {
+            width: 100%; 
+            background: #e8eaf6; 
+            float: none;
+            position: static; 
+            bottom: 0px; 
+            left: 0px;
+        }
+
+        #getcomment {
+            width: 100%; 
+            background: #e8eaf6; 
+            padding-top: 5px; 
+            float: none;
+            position: static; 
+            bottom: 0px; 
+            left: 0px;
+        }
+
+        #nickname {
+            color: #8080FF;
+            line-height: 2;
+        } 
+
+        .info {
+            font-weight: bold;
+            line-height: 140%;
+            font-size: 14px;
+        }
+
+        .info2 {
+            font-weight: normal;
+            line-height: 160%;
+            font-size: 50px;
+        }
+
+        .author {
+            font-weight: 600;
+            color: #8080FF;
+        }
+
+        .date {
+            font-weight: 100;
+            font-stretch: semi-condensed;
+            color: #FF4040;
+            font-size: 11px;
+        }
+

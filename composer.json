@@ -1,0 +1,22 @@
+{
+        "require-dev": {
+                "phpunit/phpunit": "8.*"
+        },
+        "require": {
+                "abraham/twitteroauth": "1.0.*",
+                "ext-xml": "*",
+                "vlucas/phpdotenv": "^5.3"
+        },
+        "config": {
+            "optimize-autoloader": true
+            },
+        "autoload": {
+            "psr-4": {
+                "Different\\": "different/",
+                "Tests\\": "tests/",
+                "App\\": "app/",
+                "Conn\\": "test2/conn/",
+                "Contentmakers\\": "test2/contentmakers/"
+            }
+        }
+}
